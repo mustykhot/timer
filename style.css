@@ -1,0 +1,76 @@
+body{
+    text-align: center;
+    background:whitesmoke;
+    font-family: sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(image/donut-nine.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Gotu', sans-serif;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+h1{
+  color: rgb(207,19,107);
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-delay: -1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+#maindiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+#maindiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: rgb(207,19,107);
+    display: inline-block;
+}
+
+#maindiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: whitesmoke;
+    display: inline-block;
+    color: rgb(207,19,107);
+}
+
+.text{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+@keyframes example2{
+    0% {
+        color: rgb(207,19,107);
+    }
+    25% {
+        color: aqua;
+    }
+    50%{
+      color: crimson;
+    }
+    75%{
+      color: fuchsia;
+    }
+    100%{
+      color: navy;
+    }
+  }
